@@ -48,5 +48,5 @@ let userMoney =  await inquirer.prompt({
 }
 let rate  = await cnvData(cnv)
 let result = userMoney.money*rate
-console.log(`your ${chalk.greenBright.bold(userMoney.money)} ${chalk.greenBright.bold(firstcountry.name)} in ${chalk.greenBright.bold(secondcountry.name)} is ${chalk.greenBright.bold(result)} `)
+console.log(`your ${chalk.greenBright.bold(userMoney.money)} ${chalk.greenBright.bold(firstcountry.name)} in ${chalk.greenBright.bold(secondcountry.name)} is = ${chalk.greenBright.bold(result)} ${chalk.greenBright.bold(secondcountry.name)}`)
     
