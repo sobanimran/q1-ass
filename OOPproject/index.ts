@@ -1,6 +1,6 @@
 import  inquirer  from "inquirer";
 
-inquirer
+
 
 class Student {
     name :string;
